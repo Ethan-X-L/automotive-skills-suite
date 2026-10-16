@@ -1,6 +1,6 @@
 # Skill Suite Status
 
-_Regenerated 2026-10-13 by autonomous daily run (`scripts/regen_status.py`)._
+_Regenerated 2026-10-16 by autonomous daily run (`scripts/regen_status.py`)._
 
 | Builder | Domain | Paired Reviewer | Last Touched | Flag |
 |---|---|---|---|---|
@@ -42,7 +42,7 @@ _Regenerated 2026-10-13 by autonomous daily run (`scripts/regen_status.py`)._
 | hara-builder.skill | safety | hara-checklist-reviewer.skill | 2026-07-22 | 🟡 |
 | hsi-builder.skill | safety | hsi-checklist-reviewer.skill | 2026-05-01 | 🟡 |
 | hw-architecture-builder.skill | safety | hw-architecture-checklist-reviewer.skill | 2026-05-01 | 🟡 |
-| hw-safety-reqs-builder.skill | safety | hw-safety-reqs-checklist-reviewer.skill | 2026-09-15 | 🟢 |
+| hw-safety-reqs-builder.skill | safety | hw-safety-reqs-checklist-reviewer.skill | 2026-09-15 | 🟡 |
 | incident-response-plan-builder.skill | cyber | incident-response-plan-checklist-reviewer.skill | 2026-05-01 | 🟡 |
 | item-definition-builder.skill | safety | item-def-checklist-reviewer.skill | 2026-05-01 | 🟡 |
 | ldf-builder.skill | comms | ldf-checklist-reviewer.skill | 2026-05-02 | 🟡 |
@@ -54,7 +54,7 @@ _Regenerated 2026-10-13 by autonomous daily run (`scripts/regen_status.py`)._
 | odx-builder.skill | diagnostics | odx-checklist-reviewer.skill | 2026-05-02 | 🟡 |
 | pfmea-builder.skill | quality | pfmea-checklist-reviewer.skill | 2026-07-22 | 🟡 |
 | ppap-package-builder.skill | quality | ppap-checklist-reviewer.skill | 2026-07-22 | 🟡 |
-| safety-case-builder.skill | safety | safety-case-checklist-reviewer.skill | 2026-05-01 | 🟡 |
+| safety-case-builder.skill | safety | safety-case-checklist-reviewer.skill | 2026-10-13 | 🟢 |
 | safety-gate-review-builder.skill | program-mgmt | safety-gate-review-checklist-reviewer.skill | 2026-05-02 | 🟡 |
 | safety-plan-builder.skill | safety | safety-plan-checklist-reviewer.skill | 2026-05-01 | 🟡 |
 | safety-program-risk-register-builder.skill | program-mgmt | safety-program-risk-register-checklist-reviewer.skill | 2026-08-06 | 🟡 |

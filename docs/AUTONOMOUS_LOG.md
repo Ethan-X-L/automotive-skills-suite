@@ -2023,3 +2023,16 @@ chains, not just this one.
 - Wed/Thu POLISH: #70 (`bus-load-analysis-checklist-reviewer`, mechanical `CHECKS` repair, lines 18-28), then #66-#68 (independent).
 - Fix `examples/sample_safety_case_input_esc.json` absolute paths; decide whether `sw/hw_safety_reqs_path` should be consumed.
 - Human: close #62-#65 and #69; quality/comms rotation commitment still owed at next PLAN.
+
+## 2026-10-16 (autonomous run, DOCS)
+
+**Mode:** DOCS
+**Action:** Rolled CHANGELOG `[Unreleased]` for W42 (one fix: #69 safety-case-builder) and regenerated STATUS.md.
+**Files touched:** `CHANGELOG.md`, `STATUS.md`, `docs/AUTONOMOUS_LOG.md`
+**Tests:** N/A (no test suite in this repo yet)
+**Skill count:** 76 builders / 76 reviewers / 100% paired (2 via alias) — 3 🟢 / 73 🟡 / 0 🔴
+**Open issues:** not read this run (api.github.com did not resolve from the device shell); last known 9 (#62-#65 fixed awaiting close; #66-#68, #70 unaddressed; #69 fixed awaiting close)
+**Notes:** Only the 10-13 POLISH commit landed this week; no Mon PLAN or Wed/Thu commits. No example stubs owed (safety-case-builder already has a README; no new skills for the README table). The cloud Read tool could not see the PAT path, so the whole run (token read, clone, commit, push) was executed in the device shell, with the token never printed.
+**Follow-ups:**
+- Next POLISH/PLAN: #70 mechanical `CHECKS` repair, then #66-#68; quality/comms-first commitment still owed.
+- Human: close #62-#65 and #69.

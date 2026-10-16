@@ -12,6 +12,14 @@ _W40 (2026-09-28 → 2026-10-02). Accumulating since v2026.09.W39 (2026-09-26)._
 - W40 PLAN (Mon 2026-09-28): opened #66–#70, the carried HIGH backlog (`sw-arch-builder`, `sw-sr-builder`, `sw-fmea-builder` TSC/HSI column shifts; `safety-case-builder` truncated reader; `bus-load-analysis-checklist-reviewer` truncated `CHECKS` dict) (`4da1631`)
 - September monthly KPI report, `docs/monthly/2026-09.md` (`f7ece99`)
 - W41 (2026-10-05 → 2026-10-09) DOCS roll (Fri 2026-10-09): **no skill, script or doc commits landed this week** — the W41 PLAN and Tue–Thu POLISH slots did not commit to the repo, so there are no `feat:` / `fix:` / `polish:` entries to group and no example README stubs owed. #66–#70 remain open and unaddressed; STATUS regenerated via `scripts/regen_status.py`.
+- W42 (2026-10-12 → 2026-10-16) DOCS roll (Fri 2026-10-16): one commit landed this week — the Tue 2026-10-13 POLISH run. No Mon PLAN, Wed or Thu commits; #66–#68 and #70 remain open and unaddressed.
+
+### Fix
+- **safety-case-builder** — W42 Tue (2026-10-13, #69): `multi_xlsx_reader.py` was truncated mid-statement (`retu`), raising `NameError` on any input. The `return` of the four-artifact dict was restored and the `.skill` repackaged; the deferred `office/__init__.py` file-tree doc fix landed with it. Verified by `ast.parse`, import + signature check, zip integrity and a cross-check of return keys against every `artifacts.get(...)` in `generate_safety_case.py`; the full 15-tab build was not re-run here (`96afe77`)
+
+### Known issues _(carried, not fixed this week)_
+- #70 `bus-load-analysis-checklist-reviewer` (`CHECKS` dict truncated, `SyntaxError`), #66–#68 (`sw-arch-builder`, `sw-sr-builder`, `sw-fmea-builder` TSC/HSI column shifts). Example input `examples/sample_safety_case_input_esc.json` still has hardcoded `/sessions/...` paths.
+- No example README stubs owed: `safety-case-builder` already has `examples/safety-case-builder/README.md`.
 
 ## [v2026.09.W39] — 2026-09-26
 
